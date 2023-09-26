@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: cursive;
+}
+
+span{
+    color: rgb(247, 63, 93);
+}
+h1{
+    margin-bottom: 20px;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(120deg,pink,blue,red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+textarea{
+    width: 390px;
+    height: 300px;
+    border-radius: 20px;
+    resize: none;
+    padding: 30px;
+    font-size: larger;
+    color: brown;
+    font-weight: bolder;
+}
+.bottom {
+  width: 380px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 0px 20px;
+
+}
+.bottom select{
+    width: 70%;
+    cursor: pointer;
+    height: 30px;
+    outline: none;
+    border: none;
+}
+.bottom #play{
+    padding: 10px;
+    border-radius: 20px;
+    margin:10px;
+    width: 20%;
+    border: none;
+    outline: none;
+    background-color: rgb(241, 74, 102);
+    color: white;
+    cursor: pointer;
+}
